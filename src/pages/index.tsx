@@ -16,7 +16,6 @@ const Section = styled.div`
 
 export default function Home() {
   const [userData, setUserData] = useState([])
-  console.log('userData: ', userData);
 
   useEffect(() => {
     const fetchUserData = async () => {
