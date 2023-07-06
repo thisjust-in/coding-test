@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First install by running npm install, run the development server:
 
 ```bash
 npm run dev
@@ -14,6 +14,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+# Section 1
 ## What is the purpose of the "key" prop in React?
 The Key prop in react helps React identify and track components or elements within a list of collection. The main purpose is to help React know when updating and rendering components. Assigning a unique key value to each item helps React to track and update individual list items when the underlying data changes. 
 
