@@ -14,25 +14,20 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## What is the purpose of the "key" prop in React?
+The Key prop in react helps React identify and track components or elements within a list of collection. The main purpose is to help React know when updating and rendering components. Assigning a unique key value to each item helps React to track and update individual list items when the underlying data changes. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## What is the purpose of the "useEffect" hook in React?
+The purpose of useEffect in React is to allow us to perform side effects, such as data fetching, subscriptions, or manually changing the DOM. It combines different lifecycle methods in traditional react class components. It helps you handle asynchronous tasks and handle different interactions inside your component. It is useful in separating logic with component code so that the code is kept clean.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## What is the purpose of the "setState" function in React class components?
+In React, the state is the data a component needs to render in the UI. This could be triggering re-renders and enables dynamic rendering of the UI based on changing data from user interactions. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For example we could set a state for a counter called count and keep track of every time a user clicks on it to see how many times this counter was clicked. which triggers a re-rendering and updates count.
 
-## Learn More
+## What technique is commonly used to handle authentication and authorization in Node.js?
+JWT token are often used to handle autentication and authorization in NodeJs. Libraries such as Passportjs are often used to handle JWT-based authentication and authorization.
 
-To learn more about Next.js, take a look at the following resources:
+## What is the role of a package manager in Node.js?
+Package managers such as yarn and npm is a useful tool that helps manages installations, dependency management and version of external software/libraries used in a Nodejs project. It helps streamline the process to install external libraries/projects by simply running commands in the command line. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
